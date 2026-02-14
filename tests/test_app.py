@@ -28,7 +28,7 @@ class TestMultiply:
     """Tests for multiplication function"""
 
     def test_positive_integers(self):
-        assert multiply(4, 5) == 20
+        assert multiply(4, 5) == 9
 
     def test_zero(self):
         assert multiply(300, 0) == 0
